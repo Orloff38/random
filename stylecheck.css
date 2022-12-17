@@ -6,11 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:wght@300;400;700&display=swap');
 
 body{
-
+  
     background-image: url(wallpaper.jpg);
-    background-size: cover;
+    background-size:cover;
     background-position: center;
-    background-repeat: no-repeat;
+ 
 
 
 }
@@ -208,6 +208,14 @@ input:checked ~ .switch::before{
 
 }
 
+#generate:hover, #copy:hover{
+    background-color: #6780db;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
 
 
 #copy{
