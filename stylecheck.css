@@ -15,6 +15,10 @@ body{
 
 }
 
+.all{
+    height: 100vh;
+}
+
 .container{
     font-family: 'Paytone One', sans-serif;
     min-height: 400px;
